@@ -1,0 +1,547 @@
+/* Colors: 
+#6251FF 
+#8C80FF
+ */
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin: 50px auto 150px;
+	width: 960px;
+	max-width: 95%;
+	box-sizing: border-box;
+	min-width: 375px;
+}
+
+#title, h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+#title, nav ul li a  {
+	font-size: 16px;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+#title {
+	color: #000;
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-size: 42px;
+}
+
+section p a {
+	text-decoration: none;
+	color: #6251FF;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	border-bottom: 1px solid #6251FF;
+	animation: textLinkHoverOut 0.6s;
+	-webkit-animation: textLinkHoverOut 0.6s;
+	-moz-animation: textLinkHoverOut 0.6s;
+	-o-animation: textLinkHoverOut 0.6s;
+}
+
+section p a:hover{
+	color: #8C80FF;
+    border-bottom: 1px solid #8C80FF;
+    animation: textLinkHover 0.6s;
+    -webkit-animation: textLinkHover 0.6s;
+    -moz-animation: textLinkHover 0.6s;
+    -o-animation: textLinkHover 0.6s;
+}
+
+/* header */
+
+header {
+	min-height: 375px;
+	position: relative;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+#index header {
+	background: url(nina-christensen-grafisk-design_01.jpg) bottom center;
+	background-size: cover;
+	min-height: 500px;
+}
+
+#om header {
+	background: url(nina-christensen-grafisk-design_02.jpg) bottom center;
+	background-size: cover;
+	min-height: 500px;
+}
+
+#kontakt header {
+	background: url(nina-christensen-grafisk-design_penne.jpg) center;
+	background-size: cover;
+}
+
+#snob header {
+	background: url(cases/nina-christensen-grafisk-design_snob-knitting_branding_03.jpg) center;
+	background-size: cover;
+}
+
+#spot header {
+	background: url(cases/nina-christensen-grafisk-design_spot-langeskov_branding_11.jpg) center;
+	background-size: cover;
+}
+
+#pasteldayplanner header {
+	background: url(cases/nina-christensen-grafisk-design_pastel-day-planner_layout_08.jpg) center;
+	background-size: cover;
+}
+
+#artdays header {
+	background: url(cases/nina-christensen-grafisk-design_artdays_layout_02.jpg) center;
+	background-size: cover;
+}
+
+#surface header {
+	background: url(cases/nina-christensen-grafisk-design_society6_illustration_03.jpg) center;
+	background-size: cover;
+}
+
+#papernerd header {
+	background: url(cases/nina-christensen-grafisk-design_papernerd_branding_03.jpg) center;
+	background-size: cover;
+}
+
+header div {
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 20px 40px;
+	color: #000;
+}
+
+header div h1 {
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+/* navigation */
+
+nav {
+	margin: 15px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+nav #title {
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	height: 50px;
+}
+
+nav ul li {
+	float: left;
+	padding: 5px 0px 5px 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	border-bottom: 1px solid #000;
+	animation: navHoverOut 0.6s;
+	-webkit-animation: navHoverOut 0.6s;
+	-moz-animation: navHoverOut 0.6s;
+	-o-animation: navHoverOut 0.6s;
+}
+
+nav ul li a:hover {
+	color: #8C80FF;
+    border-bottom: 1px solid #8C80FF;
+    animation: navHover 0.6s;
+    -webkit-animation: navHover 0.6s;
+    -moz-animation: navHover 0.6s;
+    -o-animation: navHover 0.6s;
+}
+
+a.currentnav {
+	color: #6251FF;
+    border-bottom: 1px solid #6251FF;
+    animation: currentNavHoverOut 0.6s;
+    -webkit-animation: currentNavHoverOut 0.6s;
+    -moz-animation: currentNavHoverOut 0.6s;
+    -o-animation: currentNavHoverOut 0.6s;
+}
+
+a:hover.currentnav {
+	color: #8C80FF;
+    border-bottom: 1px solid #8C80FF;
+    animation: currentNavHover 0.6s;
+    -webkit-animation: currentNavHover 0.6s;
+    -moz-animation: currentNavHover 0.6s;
+    -o-animation: currentNavHover 0.6s;
+}
+
+/* elements */
+
+section, #intro {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+section>h1, section>h2, section>h3 {
+	text-align: center;
+	margin-top: 30px; 
+}
+
+section>h3 {
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+section>p, #intro p {
+	width: 50%;
+	margin: 0px auto 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+section>img {
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+.call-to-action {
+	margin: 50px auto 70px;
+}
+
+.sidebysideimages {
+	display: flex;
+	align-items: stretch;
+	-webkit-align-items: stretch;
+	align-content: stretch;
+	-webkit-align-content: stretch;
+	margin-bottom: 45px;
+	margin-top: 15px;
+}
+
+.sidebysideimages img {
+	flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+	-moz-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-ms-flex-grow: 1;
+	width: 50%;
+	height: 50%;
+}
+
+.flexwrap {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.imageborder {
+	box-sizing: border-box;
+	border: 1px dotted #ccc;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	-webkit-align-items: stretch;
+	align-content: stretch;
+}
+
+main a {
+	text-align: center;
+	flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+	-moz-flex-grow: 1;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+main a h3 {
+	padding: 125px 90px;
+	opacity: 0;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	color: #000;
+	margin: 0;
+	vertical-align: middle;
+	animation: caseLinkHoverOut 0.4s;
+	-webkit-animation: caseLinkHoverOut 0.4s;
+	-moz-animation: caseLinkHoverOut 0.4s;
+	-o-animation: caseLinkHoverOut 0.4s;
+}
+
+main a:hover h3 {
+	opacity: 1;
+	animation: caseLinkHover 0.4s;
+	-webkit-animation: caseLinkHover 0.4s;
+	-moz-animation: caseLinkHover 0.4s;
+	-o-animation: caseLinkHover 0.4s;
+}
+
+#snobpreview {
+	background: url(cases/nina-christensen-grafisk-design_snob-knitting_branding_05.jpg) center;
+	background-size: cover;
+	flex-grow: 3;
+}
+
+#spotlangeskovpreview {
+	background: url(cases/nina-christensen-grafisk-design_spot-langeskov_branding_11.jpg) center;
+	background-size: cover;
+	flex-grow: 2;
+}
+
+#pasteldayplannerpreview {
+	background: url(cases/nina-christensen-grafisk-design_pastel-day-planner_layout_01.jpg) center;
+	background-size: cover;
+}
+
+#artdayspreview {
+	background: url(cases/nina-christensen-grafisk-design_artdays_layout_01.jpg) center;
+	background-size: cover;
+	flex-grow: 3;
+}
+
+#surfacepreview {
+	background: url(cases/nina-christensen-grafisk-design_society6_illustration_01.jpg) center;
+	background-size: cover;
+	flex-grow: 2;
+}
+
+#papernerdpreview {
+	background: url(cases/nina-christensen-grafisk-design_papernerd_branding_01.png) center;
+	background-size: cover;
+}
+
+em {
+	display: block;
+	font-style: italic;
+}
+
+form {
+	width: 50%;
+	margin: 0px auto 30px;
+	padding-top: 30px;
+}
+
+tr {
+	width: 100%;
+} 
+
+td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+td.col1 {
+	padding-right: 30px;
+	padding-top: 27px;
+}
+
+td.col2 {
+	width: 100%;
+}
+
+td[colspan="2"] {
+	text-align: right;
+}
+
+input[type="text"], textarea {
+	background: #6251FF;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+input[type="text"]:focus, textarea:focus {
+	background: #8C80FF;
+}
+
+textarea {
+	resize: none;
+}
+
+input[type="submit"] {
+	background: #6251FF;
+	padding: 10px 15px;
+	border: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+
+input[type="submit"]:hover {
+	background: #8C80FF;
+}
+
+/* animations */
+
+@keyframes textLinkHover {
+    from {
+    	color: #6251FF;
+    	border-bottom: 1px solid #6251FF;
+    }
+    to {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+}
+
+@keyframes textLinkHoverOut {
+    from {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+    to {
+    	color: #6251FF;
+    	border-bottom: 1px solid #6251FF;
+    }
+}
+
+@keyframes caseLinkHover {
+    from {
+    	opacity: 0;
+    }
+    to {
+    	opacity: 1;
+    }
+}
+
+@keyframes caseLinkHoverOut {
+    from {
+    	opacity: 1;
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+@keyframes navHover {
+    from {
+    	color: #000;
+    	border-bottom: 1px solid #000;
+    }
+    to {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+}
+
+@keyframes navHoverOut {
+    from {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+    to {
+    	color: #000;
+    	border-bottom: 1px solid #000;
+    }
+}
+
+@keyframes currentNavHover {
+    from {
+    	color: #6251FF;
+    	border-bottom: 1px solid #6251FF;
+    }
+    to {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+}
+
+@keyframes currentNavHoverOut {
+    from {
+    	color: #8C80FF;
+    	border-bottom: 1px solid #8C80FF;
+    }
+    to {
+    	color: #6251FF;
+    	border-bottom: 1px solid #6251FF;
+    }
+}
+
+/* smaller displays */
+
+@media screen and (max-width: 780px) {
+    
+    body {
+    	margin-bottom: 90px;
+    }
+
+    header, #index header, #om header, #kontakt header {
+		min-height: 250px;
+	}
+
+	header div {
+		padding: 10px 20px;
+	}
+
+	header div h2 {
+		font-size: 28px;
+		margin-bottom: 5px;
+	}
+
+	header div h3 {
+		font-size: 16px;
+	}
+
+    section>p, form {
+		width: 75vw;
+		font-size: 14px;
+	}
+
+	section>h2 {
+		font-size: 28px;
+	}
+
+	nav {
+		min-height: 100px;
+		margin-left: 20px;
+		max-width: 90%;
+	}
+
+	nav #title {
+		float: none;
+		font-size: 18px;
+	}
+
+	nav ul {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	nav ul li {
+		padding: 15px 20px 0px 0px;
+	}
+
+}

@@ -1,0 +1,117 @@
+/* Colors: 
+#5e2bff Han Purple
+#fceaef Seashell
+#ffffff White
+#f9dc5c Stil de Grain Yellow
+#F9D740 Sandstorm
+#F9DA4F Minion
+#F9DC1D Deep Lemon
+#F85A3E Orange Soda
+ */
+
+body {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 400;
+	margin: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+/* header */
+
+header {
+	height: 80vh;
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	background: url(nina-christensen_grafisk-design.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+header div {
+	display: none;
+	margin: 0px auto;
+	max-width: 960px;
+	background: #fceaef;
+	text-align: center;
+	padding: 30px;
+}
+
+header div h2 {
+	font-size: 52px;
+}
+
+header div h1 {
+	font-size: 24px;
+}
+
+/* navigation */
+
+nav {
+	background: #fceaef;
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	right: 0px;
+	z-index: 100;
+	border: 5px solid #fceaef;
+}
+
+nav ul {
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	display: box;
+	float: left;
+}
+
+nav ul li a{
+	background: #F9E3E5;
+	text-decoration: none;
+	color: #000;
+}
+
+nav ul li a:hover {
+	background: #F4989C;
+	color: #fff;
+}
+
+/* elements */
+
+.quote {
+	padding: 10% 15%;
+	margin: 100px 0px;
+	background: #fceaef;
+	font-size: 32px;
+	text-align: center;
+	font-style: italic;
+}
+
+main {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	background: #eee; /* skal slettes senere*/
+	min-height: 100vh; /* skal slettes senere*/
+	top: 100vh;
+}
+
+hr {
+	margin: 30px 0px 50px;
+	border: 0px;
+	border-bottom: 4px solid #C97C5D;
+}
+
+/* smaller displays */
+
+@media screen and (max-width: 780px) {
+    body {
+        background-color: lightgreen;
+    }
+}
